@@ -29,4 +29,21 @@
             }
         }
     }
+
+
+    @media (max-width: 768px){
+        .logo{
+            margin-top: 20px;
+        }
+        .contacts{
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 680px) and (min-width: 550px) {
+        .official{
+            display: none !important;
+        }
+    }
 }
+

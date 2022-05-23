@@ -3,9 +3,22 @@
 @import 'font.scss';
 
 @import 'base/variables';
+@import 'base/mixins.scss';
 
 @import 'pages/pages';
 
 @import 'blocks/promo';
 @import 'blocks/header_top';
 @import 'blocks/button';
+
+@import 'blocks/advantages.scss';
+@import 'blocks/titles.scss';
+
+@import 'blocks/consultation.scss';
+@import 'blocks/forms.scss';
+
+@import 'blocks/carousel.scss';
+
+@import 'blocks/catalog.scss';
+
+@import 'blocks/feedback.scss';

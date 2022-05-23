@@ -1,7 +1,12 @@
 .promo{
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url(../../img/main.jpg) center (center/cover) no-repeat;
+    background: url(../img/main.jpg) center (center/cover) no-repeat;
+    .official_mobile{
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
     .wrapper {
         padding: 91px 0;
         display: flex;
@@ -48,6 +53,24 @@
                 text-decoration: underline;
             }
             
+        }
+    }
+
+
+    @media (max-width: 991px){
+        padding: 21px 0 43px 0 !important;
+        .wrapper {
+            margin-top: 30px !important;
+            padding: 91px 0 40px 0 !important;
+            .header_wrapper {
+                font-size: 36px !important;
+            }
+            .subheader_wrapper {
+                font-size: 18px !important;
+            }
+            .icons {
+                margin-top: 30px !important;
+            }
         }
     }
 }
