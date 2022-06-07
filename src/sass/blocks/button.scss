@@ -8,6 +8,9 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #FFFFFF;
+    &:hover {
+        box-shadow: 3px 3px 15px #6B6B6B;
+    }
 }
 .main {
     margin-top: 67px;
@@ -24,10 +27,13 @@
     height: 55px;
     font-size: 16px;
 }
-.mini {
+.order_btn_mini {
     background: $main-color;
     color: #FFFFFF;
     width: 135px;
     height: 44px;
     font-size: 14px;
+    &:hover {
+        box-shadow: 3px 3px 15px #6B6B6B;
+    }
 }

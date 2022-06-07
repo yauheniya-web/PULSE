@@ -2,8 +2,13 @@
     padding: 81px 0;
     .inner {
         position: relative;
-        width: 750px;
+        max-width: 100%;
         margin: 0 auto;
+        width: 100%;
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
     }
 
     .slick-prev, .slick-next { //inline-block
@@ -22,5 +27,42 @@
     .slick-next {
         right: -66px;
         left: auto;
+    }
+
+    .slick-dots {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 5px;
+            padding: 0;
+            list-style: none;
+            button {
+                display: block;
+                width: 10px;
+                height: 10px;
+                padding: 0;
+                border: none;
+                border-radius: 100%;
+                background-color: #646464;
+                text-indent: -9999px;
+                outline: none;
+/*              NUMBERS in square:   
+                background-color: #646464;
+                border-width: 0px;
+                border-radius: 4px;
+                color: #fff;
+                outline: none;
+                &:hover {
+                    color: #fff;
+                } */
+            }
+            &.slick-active {
+                button {
+                    background-color: $main-color;
+                }
+            }
+        }
     }
 }

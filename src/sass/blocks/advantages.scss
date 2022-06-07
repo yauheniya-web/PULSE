@@ -37,6 +37,16 @@
         }
     }
 
+    .animated {
+        animation-name: heartbeat;
+        animation-duration: 2s; //сколько длится анимация
+        animation-timing-function: ease; //начинается медленно, разгоняется и замедляется
+        animation-iteration-count: infinite; //бесконечная анимация
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+
 
     @media (max-width: 991px){
         .wrapper{

@@ -1,9 +1,12 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-@import 'font.scss';
+@import 'libs/font.scss';
+@import 'libs/slick.scss';
+@import 'libs/animate.scss';
 
 @import 'base/variables';
 @import 'base/mixins.scss';
+@import 'base/animations.scss';
 
 @import 'pages/pages';
 
@@ -22,3 +25,9 @@
 @import 'blocks/catalog.scss';
 
 @import 'blocks/feedback.scss';
+
+@import 'blocks/footer_main_page_map.scss';
+
+@import 'blocks/modals.scss';
+
+@import 'blocks/pageup.scss';
